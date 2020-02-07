@@ -1,0 +1,39 @@
+*gitstandup.txt*	a simple way to get info on our latest commit
+
+===============================================================================
+1. Introduction                                         *gitstandup-introduction*
+
+Gitstandup aims at being a simple plugin to recall the commits you've made
+since your last standup. While being pretty simple at the moment it could
+become somewhat useful with a little push.
+
+===============================================================================
+2. Getting Started                                   *gitstandup-getting-started*
+
+I haven't had time yet to find an elegant way to make this plugin install `git
+standup` automatically if required. In the meantime, I am afraid there is no
+other choice than to install it yourself before using this plugin. One way to
+install it is to use CURL:
+>
+  curl -L https://raw.githubusercontent.com/kamranahmedse/git-standup/master/installer.sh | sudo sh
+<
+===============================================================================
+3. Commands                                                 *gitstandup-commands*
+
+                                                                      *:Gstandup*
+:Gstandup [days]
+
+  Using this command will open a scratch buffer with a short summary of your
+  commits for the last [days]. The default value for [days] is 1. If you have
+  a standup only once a week, you could/should call `:Gstandup` like this:
+  >
+>
+  :Gstandup 7
+<
+  This would return you a list of the commits you have made on the current repository
+  for the last 7 days.
+
+===============================================================================
+
+
+ vim:tw=78:ts=8:noet:ft=help:norl:
