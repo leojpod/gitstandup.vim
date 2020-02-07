@@ -44,4 +44,4 @@ At the moment it supports only one command: `:Gstandup` which takes an optional 
 
 ## Example
 
-[![asciicast](https://asciinema.org/a/299035.svg)](https://asciinema.org/a/299035)
+[![asciicast](https://asciinema.org/a/vDhqXpzV0kLjvCzVdZYtWOnpS.svg)](https://asciinema.org/a/vDhqXpzV0kLjvCzVdZYtWOnpS)
