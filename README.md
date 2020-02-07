@@ -40,3 +40,8 @@ After running `:PlugInstall`, the files should appear in your `~/.config/nvim/pl
 ## How to use it
 This plugin is still pretty new and might be extended later on.
 At the moment it supports only one command: `:Gstandup` which takes an optional parameter specifying how many days back (the `-d` [option](https://github.com/kamranahmedse/git-standup#options) from git-standup) you would like to fetch for your commits.
+
+
+## Example
+
+[![asciicast](https://asciinema.org/a/299035.svg)](https://asciinema.org/a/299035)
