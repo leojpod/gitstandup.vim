@@ -12,5 +12,3 @@ end
 let g:git_standup_loaded = 1
 
 command! -nargs=* Gstandup lua require'standup'.show(<f-args>)
-
-lua require'standup'.show()
