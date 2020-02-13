@@ -22,9 +22,11 @@ call neobundle#begin(expand('~/.vim/bundle/'))
     " You probably have a number of other plugins listed here.
 
     " Add this line to make your new plugin load, assuming you haven't renamed it.
-    NeoBundle 'nvim-example-python-plugin'
+    NeoBundle 'gitstandup.vim'
 call neobundle#end()
 ```
+
+For full disclosure, I use `Plug` in my config so I not quite sure of the veracity of this `NeoBundle` installation.
 
 ### vim-plug
 
