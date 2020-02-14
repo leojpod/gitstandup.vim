@@ -12,10 +12,10 @@ syn sync fromstart
 syntax match projectURI "\v^(\/[^\/\n]+)+$"
 syntax match projectURI "\v^(\\[^\\\n]+)+"
 
-syntax match commitHash "\v(\d|[a-f]){7}" nextgroup=commitMessage
+syntax match commitHash "\v^(\d|[a-f])+ " nextgroup=commitMessage
 
-syntax match commitMessage "\v - .*\(.+\) " nextgroup=commitAuthor
-syntax match commitAuthor "<\w+>"
+syntax match commitMessage "\v- .*\(.+\)\s*" nextgroup=commitAuthor
+syntax match commitAuthor "\v\<.+\>.*$"
 
 
 " highlight link GitstandupFile Identifier
